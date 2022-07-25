@@ -6,13 +6,13 @@ const value = document.querySelector("#value");
 const btns = document.querySelectorAll(".btn");
 
 
-console.log(btns);
+
 
 btns.forEach(function(btn) {
     btn.addEventListener("click", function (e){
     const styles = e.currentTarget.classList;
     if(styles.contains('decrease')){
-        count--;
+    count--;
     }
     else if(styles.contains('increase')){
         count++;
@@ -28,7 +28,7 @@ btns.forEach(function(btn) {
         value.style.color ="red";
     }
     else{
-        value.style.color="blue",
+        value.style.color="blue";
     }
     
     value.textContent = count;
