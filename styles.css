@@ -1,4 +1,35 @@
 body{
-    background-color: salmon;
+    background-image: url("img/fondo.jpg");
+    text-align: center;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 300px;
+}
+
+.btn{
+    background-color: #2e19a5; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+}
+
+.increase{
+    background-color: #4CAF50;
+}
+
+.decrease{
+    background-color: #ce2b16; 
+}
+.btn:hover {
+    background-color: #d3d022; /* Green */
+    color: rgb(204, 81, 10)
+    box-shadow: black
+ 
 }
     
+
